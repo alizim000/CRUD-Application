@@ -5,7 +5,7 @@ var app = express();
 //Configuring express server
 app.use(bodyparser.json());
 
-//MySQL details
+//MySQL details// 
 var mysqlConnection = mysql.createConnection({
     host: 'alimo.northeurope.cloudapp.azure.com',
     user: 'ali123',
