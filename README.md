@@ -7,9 +7,9 @@ In this project, a CRUD (Create, Read, Update, Delete) application was created u
 
 ###Requirements
 
-*Node.js
-*Express Frame Work
-*MySQL
-*Postman
+* Node.js
+* Express Frame Work
+* MySQL
+* Postman
 
 
