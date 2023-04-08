@@ -8,18 +8,54 @@ In this project, a CRUD (Create, Read, Update, Delete) application was created u
 ### Requirements
 
 * Node.js
+* Npm
 * Express Frame Work
 * MySQL2
 * Nodemon
 * Postman
 
-## installed the required packages using the below commands
-
+### Installed the required packages using the below commands
 ```
 sudo apt install nodejs
 install npm
 npm install  --s express express-handlebars mysql2 body-parser nodemon
 ```
+
+### Creating a Package.json file using below command
+```
+npm init
+```
+
+```
+{
+  "name": "programming-ca2",
+  "version": "1.0.0",
+  "description": "Programming CA2 group assignment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "",
+    "url": "https://github.com/alizim000/group-ca2.git"
+  },
+  "author": "Ali Moinuddin, Azhar Khan, Vineet Kumar",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {}
+}
+```
+
+
 
 
 
