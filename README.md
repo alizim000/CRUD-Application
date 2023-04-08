@@ -54,14 +54,14 @@ npm init
 }
 ```
 
-#### Setting up the DB Database  Table ( Studentdetials)
+#### Setting up the DB Database  Table 
 
 * Installing Mysql Databse
 ```
 sudo apt update
 sudo apt install mysql-server
 sudo systemctl start mysql.service
-`````
+```
 * Creating DB user 
 ```
 Sudo Mysql
