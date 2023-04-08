@@ -54,9 +54,27 @@ npm init
 }
 ```
 
-### Installing Mysql Databse through CLI mode
+#### Setting up the DB Database  Table ( Studentdetials)
 
-```Sudo install mysql
+* Installing Mysql Databse
+```
+sudo apt update
+sudo apt install mysql-server
+sudo systemctl start mysql.service
+`````
+* Creating DB user 
+```
+Sudo Mysql
+create user 'ali123'@'%' identified by 'XXXX';
+```
+* Creating DB 
+```
+create database student;
+```
+* Enabling the Permision on user
+```
+grant all privileges on student.* to 'ali123'@'%';
+flush privileges;
 ```
 
 
