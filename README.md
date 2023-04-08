@@ -75,12 +75,9 @@ create database student;
 ```
 grant all privileges on student.* to 'ali123'@'%';
 flush privileges;
+show databases;
 ```
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/103967847/230727485-4d39c497-9a61-407e-a254-2b7b862c0d53.png)
 
 
 
