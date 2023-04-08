@@ -83,6 +83,16 @@ show databases;
 
 ![image](https://user-images.githubusercontent.com/103967847/230727693-e14c644f-ec51-4bbb-89be-05d8fb124c10.png)
 
+* Select table 
+```
+select * from studentdetais
+```
+![image](https://user-images.githubusercontent.com/103967847/230727823-4ac6111e-58d6-482f-89f8-397206115c5d.png)
+
+
+
+
+
 
 
 
