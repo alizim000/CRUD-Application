@@ -15,9 +15,11 @@ In this project, a CRUD (Create, Read, Update, Delete) application was created u
 
 ## installed the required packages using the below commands
 
+```
 'sudo apt install nodejs'
 'install npm'
 'npm install  --s express express-handlebars mysql2 body-parser nodemon'
+```
 
 
 
