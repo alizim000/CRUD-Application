@@ -14,7 +14,7 @@ In this project, a CRUD (Create, Read, Update, Delete) application was created u
 * Nodemon
 * Postman
 
-#### Installed the required packages using the below commands
+#### Installing the required packages using the below commands
 ```
 sudo apt install nodejs
 install npm
@@ -54,6 +54,10 @@ npm init
 }
 ```
 
+### Installing Mysql Databse through CLI mode
+
+```Sudo install mysql
+```
 
 
 
