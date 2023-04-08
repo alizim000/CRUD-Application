@@ -79,5 +79,11 @@ show databases;
 ```
 ![image](https://user-images.githubusercontent.com/103967847/230727485-4d39c497-9a61-407e-a254-2b7b862c0d53.png)
 
+* Creating Table "studentdetails" on Mysql work bench
+
+![image](https://user-images.githubusercontent.com/103967847/230727693-e14c644f-ec51-4bbb-89be-05d8fb124c10.png)
+
+
+
 
 
