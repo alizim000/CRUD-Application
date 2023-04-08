@@ -1,14 +1,13 @@
-## Programming-ca2
+### Programming-ca2
 ###### Group assignment 
 
-### Sumary
+#### Sumary
 
 In this project, a CRUD (Create, Read, Update, Delete) application was created using Node.js, Express framwork, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly. Overall, this project demonstrated how to use Node.js and MySQL to create a functional CRUD application for managing student data.
 
 #### The project will be having the below structure 
 * package.json
 * server.js
-
 
 #### Requirements
 
@@ -59,7 +58,7 @@ npm init
 }
 ```
 
-#### Setting up the DB Database  Table 
+#### Setting up the DB Database 
 
 * Installing Mysql Databse
 ```
@@ -87,8 +86,6 @@ show databases;
 * Creating Table "studentdetails" on Mysql work bench
 
 ![image](https://user-images.githubusercontent.com/103967847/230727693-e14c644f-ec51-4bbb-89be-05d8fb124c10.png)
-
-* Select table 
 ```
 select * from studentdetais
 ```
