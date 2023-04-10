@@ -184,7 +184,7 @@ app.delete('/student/:id', (req, res) => {
 ###### To run the script, simply navigate to the directory containing the script.js file in your terminal and type node script.js. This will start the server and you can then access the data by navigating to http://localhost:3000/students in browser or Postman.
 
 
-fgdgd
+fgdgdgdfgdgdrf
 
 
 
