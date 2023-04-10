@@ -90,7 +90,7 @@ select * from studentdetais
 ![image](https://user-images.githubusercontent.com/103967847/230727823-4ac6111e-58d6-482f-89f8-397206115c5d.png)
 
 #### Create script.js
-###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code  [Mysql Database integration - Reference (https://expressjs.com/en/guide/database-integration.html#mysql)
+###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code  [Mysql Database integration - Reference](https://expressjs.com/en/guide/database-integration.html#mysql)
 ```
 const mysql = require('mysql2');
 const express = require('express');
