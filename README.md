@@ -181,10 +181,10 @@ app.delete('/student/:id', (req, res) => {
 
 ###### In the code above, we first import the required packages express and mysql. We then create a connection to the MySQL database by passing the database details to the mysql.createConnection() method. We start the server by calling the app.listen() method and specifying the port number to listen on. We then connect to the database using the db.connect() method. Next, we create an instance of Express and define a route to retrieve data from the database. In this example, we use a simple SQL query to select all the data from a table in the database. We then pass the SQL query to the db.query() method and send the result back to the client using the res.send() method.
 
-##### To run the script, simply navigate to the directory containing the script.js file in your terminal and type node script.js. This will start the server and you can then access the data by navigating to http://localhost:3000/students in your browser.
+###### To run the script, simply navigate to the directory containing the script.js file in your terminal and type node script.js. This will start the server and you can then access the data by navigating to http://localhost:3000/students in browser or Postman.
 
 
-
+fgdgd
 
 
 
