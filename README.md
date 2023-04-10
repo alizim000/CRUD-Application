@@ -2,7 +2,7 @@
 ###### Programming CA-2 Group assignment 
 
 ### Summary
-In this project, a CRUD (Create, Read, Update, Delete) application was created using Node.js, Express framwork, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly. Overall, this project demonstrated how to use Node.js and MySQL to create a functional CRUD application for managing student data. [I'm an inline-style link](https://www.google.com)
+In this project, a CRUD (Create, Read, Update, Delete) application was created using Node.js, Express framwork, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly. Overall, this project demonstrated how to use Node.js and MySQL to create a functional CRUD application for managing student data.
 
 #### The project will be having the below structure 
 * package.json
@@ -90,7 +90,7 @@ select * from studentdetais
 ![image](https://user-images.githubusercontent.com/103967847/230727823-4ac6111e-58d6-482f-89f8-397206115c5d.png)
 
 #### Create script.js
-###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code
+###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code  [I'm an inline-style link](https://www.google.com)
 ```
 const mysql = require('mysql2');
 const express = require('express');
