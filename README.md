@@ -89,8 +89,16 @@ select * from studentdetais
 ```
 ![image](https://user-images.githubusercontent.com/103967847/230727823-4ac6111e-58d6-482f-89f8-397206115c5d.png)
 
-#### create the script.js
-###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection.To create this file, you can use any code editor  import the required packages in application and for that, we need to write below code
+#### Create script.js
+####### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code
+```
+const mysql = require('mysql2');
+const express = require('express');
+const bodyparser = require('body-parser');
+var app = express();
+//Configuring express server
+app.use(bodyparser.json());
+```
 
 
 
