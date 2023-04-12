@@ -184,5 +184,5 @@ app.delete('/student/:id', (req, res) => {
 ##### To run the script, simply navigate to the directory containing the script.js file in your terminal and type npm starr. This will start the server and we can  access the data by navigating to http://localhost:3000/students in browser or Postman.
 
 Azhar contribution
-##### we used my sql database to store 
+##### we used my sql database to store student information 
 
