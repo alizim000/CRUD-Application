@@ -46,7 +46,7 @@ app.get('/students/:id', (req, res) => {
     })
 });
 
-//Router to INSERT/POST a student's detail
+//Router to INSERT/POST a student's details
 app.post('/students', (req, res) => {
     let student = req.body;
     var sql = "SET @student_id = ?;SET @student_name = ?;SET @student_email = ?;SET @course_id = ?; CALL studentAddOrEdit(@student_id, @student_name, @student_email, @course_id); ";
