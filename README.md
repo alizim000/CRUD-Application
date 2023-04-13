@@ -64,7 +64,7 @@ sudo apt update
 sudo apt install mysql-server
 sudo systemctl start mysql.service
 ```
-* Creating DataBase user 
+* Creating Database user 
 ```
 Sudo Mysql
 create user 'ali123'@'%' identified by 'XXXX';
