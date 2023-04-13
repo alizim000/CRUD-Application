@@ -87,7 +87,8 @@ show databases;
 
 ![image](https://user-images.githubusercontent.com/103967847/230727693-e14c644f-ec51-4bbb-89be-05d8fb124c10.png)
 
-![image](https://user-images.githubusercontent.com/103967847/231889897-91602b8d-5fb4-44b6-b226-8ca2fa4b3316.png)
+![image](https://user-images.githubusercontent.com/103967847/231890421-147268ac-d56b-409d-9970-eb3e95487a14.png)
+
 
 
 ```
