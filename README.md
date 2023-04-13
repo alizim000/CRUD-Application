@@ -89,6 +89,33 @@ select * from studentdetais
 ```
 ![image](https://user-images.githubusercontent.com/103967847/231862220-ec507df6-e55d-4812-b47b-769afdde8d48.png)
 
+#### Created StoredProducer in MYSQL
+
+```sql
+CREATE DEFINER=`ali123`@`alimo.northeurope.cloudapp.azure.com` PROCEDURE `studentAddOrEdit`(
+IN _student_id INT,
+IN _student_name VARCHAR(45),
+IN _student_email VARCHAR(45),
+IN _course_id INT
+)
+BEGIN
+IF _student_id = 0 THEN
+INSERT INTO studentdetails(student_name,student_email,course_id)
+VALUES (_student_name,_student_email,_course_id);
+SET _student_id = last_insert_id();
+ELSE
+UPDATE studentdetails
+SET
+student_name = _student_name,
+student_email = _student_email,
+course_id = _course_id
+WHERE student_id = _student_id;
+END IF;
+SELECT _student_id AS 'student_id';
+END
+```
+
+
 
 #### Create script.js
 ###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code  [Mysql Database integration - Reference](https://expressjs.com/en/guide/database-integration.html#mysql)
