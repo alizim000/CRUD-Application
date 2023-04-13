@@ -229,7 +229,8 @@ app.delete('/student/:id', (req, res) => {
 
 ![image](https://user-images.githubusercontent.com/103967847/231883778-a78a5b99-613f-4bf8-9022-ee884884811e.png)
 
-![image](https://user-images.githubusercontent.com/103967847/231884410-df7dd3ec-f371-4a93-bef2-fd782049fb01.png)
+![image](https://user-images.githubusercontent.com/103967847/231887978-67752a08-9314-4bba-8869-bc352a4efa07.png)
+
 
 #### PUT
 
