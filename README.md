@@ -23,7 +23,7 @@ install npm
 npm install  --s express express-handlebars mysql2 body-parser nodemon
 ```
 
-#### Creating a Package.json file using below command
+#### Commands used to create a Package.json file 
 ```
 npm init
 ```
