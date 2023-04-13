@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 const express = require('express');
 const bodyparser = require('body-parser');
 var app = express();
-//Configuring express server
+//Configuring access server 
 app.use(bodyparser.json());
 
 //MySQL details// 
