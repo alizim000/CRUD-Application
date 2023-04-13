@@ -69,7 +69,7 @@ sudo systemctl start mysql.service
 Sudo Mysql
 create user 'ali123'@'%' identified by 'XXXX';
 ```
-* Creating DB 
+* Creating Database 
 ```
 create database student;
 ```
