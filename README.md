@@ -217,6 +217,8 @@ app.delete('/student/:id', (req, res) => {
 
 #### vineet contribution we created a database using  mysql server 
 
+##### we encountered with an error writing script for database 
+
 
 
 
