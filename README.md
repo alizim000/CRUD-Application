@@ -82,9 +82,11 @@ show databases;
 ![image](https://user-images.githubusercontent.com/103967847/230727485-4d39c497-9a61-407e-a254-2b7b862c0d53.png)
 
 * Creating Table "studentdetails" on Mysql work bench
+
 ###### I forgot to add auto increment while creating table (later i have enabled the auto Incremnt on Student_id coloum)
 
 ![image](https://user-images.githubusercontent.com/103967847/230727693-e14c644f-ec51-4bbb-89be-05d8fb124c10.png)
+
 ![image](https://user-images.githubusercontent.com/103967847/231889897-91602b8d-5fb4-44b6-b226-8ca2fa4b3316.png)
 
 
