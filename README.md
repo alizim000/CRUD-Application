@@ -225,21 +225,21 @@ app.delete('/student/:id', (req, res) => {
 
 ### Crud Application TEST
 
-#### GET 
+### GET 
 
 
 ![image](https://user-images.githubusercontent.com/103967847/231881948-6234ae95-5751-4cc7-987e-b2ae4324a6f7.png)
 
 
 
-#### POST
+### POST
 
 ![image](https://user-images.githubusercontent.com/103967847/231883778-a78a5b99-613f-4bf8-9022-ee884884811e.png)
 
 ![image](https://user-images.githubusercontent.com/103967847/231887978-67752a08-9314-4bba-8869-bc352a4efa07.png)
 
 
-#### PUT
+### PUT
 
 
 ![image](https://user-images.githubusercontent.com/103967847/231892391-30e02f09-2222-4dae-8929-56de1d9a7d0f.png)
@@ -248,7 +248,7 @@ app.delete('/student/:id', (req, res) => {
 
 ![image](https://user-images.githubusercontent.com/103967847/231892583-5cc8dc53-bd43-4ec0-b18c-beb52b555d37.png)
 
-#### DELETE
+### DELETE
 
 ![image](https://user-images.githubusercontent.com/103967847/231892729-6ef1a31c-cb99-4d1d-a134-1851f13c84db.png)
 
