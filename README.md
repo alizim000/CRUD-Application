@@ -4,7 +4,7 @@
 ### Summary
 In this project, We have used Azure and a CRUD (Create, Read, Update, Delete) application, created using Node.js, Express framework, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly.
 
-#### The project will be having the below structure 
+#### The project will be having the following structure 
 * package.json
 * server.js
 
@@ -262,7 +262,7 @@ app.delete('/student/:id', (req, res) => {
 ##### we used my sql database to store student information 
 
 
-vineet cintribution
+vineet contribution
 
 
 
