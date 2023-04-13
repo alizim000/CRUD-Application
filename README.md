@@ -211,7 +211,9 @@ app.delete('/student/:id', (req, res) => {
 
 ##### To run the script, simply navigate to the directory containing the script.js file in your terminal and type npm start. This will start the server and we can  access the data by navigating to http://localhost:3000/students in browser or Postman.
 
+
 ![image](https://user-images.githubusercontent.com/103967847/231881327-df8912ca-0d74-4c8a-9e92-e4a693b2ec3c.png)
+
 
 
 ### Crud Application TEST
@@ -221,6 +223,15 @@ app.delete('/student/:id', (req, res) => {
 
 ![image](https://user-images.githubusercontent.com/103967847/231881948-6234ae95-5751-4cc7-987e-b2ae4324a6f7.png)
 
+
+
+#### POST
+
+![image](https://user-images.githubusercontent.com/103967847/231883778-a78a5b99-613f-4bf8-9022-ee884884811e.png)
+
+![image](https://user-images.githubusercontent.com/103967847/231884410-df7dd3ec-f371-4a93-bef2-fd782049fb01.png)
+
+#### PUT
 
 
 
