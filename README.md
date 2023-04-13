@@ -2,7 +2,7 @@
 ###### Programming CA-2 Group assignment 
 
 ### Summary
-In this project, a CRUD (Create, Read, Update, Delete) application was created using Node.js, Express framwork, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly. Overall, this project demonstrated how to use Node.js and MySQL to create a functional CRUD application for managing student data.
+In this project, We have used Azure and a CRUD (Create, Read, Update, Delete) application, created using Node.js, Express framework, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly.
 
 #### The project will be having the below structure 
 * package.json
@@ -58,7 +58,7 @@ npm init
 
 #### Setting up the DB Database 
 
-* Installing Mysql Databse
+* Installing Mysql Database
 ```
 sudo apt update
 sudo apt install mysql-server
@@ -207,17 +207,32 @@ app.delete('/student/:id', (req, res) => {
 
 ```
 
-##### In the code above, we first import the required packages express and mysql. We then create a connection to the MySQL database by passing the database details to the mysql.createConnection() method. We start the server by calling the app.listen() method and specifying the port number to listen on. We then connect to the database using the db.connect() method. Next, we create an instance of Express and define a route to retrieve data from the database. In this example, we use a simple SQL query to select all the data from a table in the database. We then pass the SQL query to the db.query() method and send the result back to the client using the res.send() method.
+##### In above JS code, we first import the required packages express and mysql. We then create a connection to the MySQL database by passing the database details to the mysql.createConnection() method. We start the server by calling the app.listen() method and specifying the port number to listen on. We then connect to the database using the db.connect() method. Next, we create an instance of Express and define a route to retrieve data from the database. In this example, we use a simple SQL query to select all the data from a table in the database. We then pass the SQL query to the db.query() method and send the result back to the client using the res.send() method.
 
-##### To run the script, simply navigate to the directory containing the script.js file in your terminal and type npm starr. This will start the server and we can  access the data by navigating to http://localhost:3000/students in browser or Postman.
+##### To run the script, simply navigate to the directory containing the script.js file in your terminal and type npm start. This will start the server and we can  access the data by navigating to http://localhost:3000/students in browser or Postman.
+
+![image](https://user-images.githubusercontent.com/103967847/231881327-df8912ca-0d74-4c8a-9e92-e4a693b2ec3c.png)
+
+
+### Crud Application TEST
+
+#### GET 
+
+
+![image](https://user-images.githubusercontent.com/103967847/231881948-6234ae95-5751-4cc7-987e-b2ae4324a6f7.png)
+
+
+
+
+
+
+
 
 
 ##### we used my sql database to store student information 
 
 
-#### vineet contribution we created a database using  mysql server 
-
-##### we encountered with an error writing script for database 
+vineet cintribution
 
 
 
