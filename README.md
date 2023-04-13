@@ -1,4 +1,4 @@
-## Node Js CRUD Application Development
+## Node JS CRUD Application Development
 ###### Programming CA-2 Group assignment 
 
 ### Summary
@@ -87,7 +87,8 @@ show databases;
 ```
 select * from studentdetais
 ```
-![image](https://user-images.githubusercontent.com/103967847/230727823-4ac6111e-58d6-482f-89f8-397206115c5d.png)
+![image](https://user-images.githubusercontent.com/103967847/231862220-ec507df6-e55d-4812-b47b-769afdde8d48.png)
+
 
 #### Create script.js
 ###### which will help in retrieving the data from the created database, Script.js is the root file and also acts as the entry point of this application. It will contain all the routers and drivers in it. Along with this, it is also responsible for invoking the server and establish the connection. after creating script.js file import the required packages in application and for that, we need to write below code  [Mysql Database integration - Reference](https://expressjs.com/en/guide/database-integration.html#mysql)
