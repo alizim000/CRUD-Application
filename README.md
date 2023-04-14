@@ -266,7 +266,8 @@ app.delete('/student/:id', (req, res) => {
 created a database in my sql server for student detailswith attributes student email ids, student names and course id.
 Inserted some student details.
 Then Updated the database with some other student details.
-We entered some excess information so we had to delete that excess information.
+We entered some excess information in the student details table so we had to delete that excess information.
+Then 
 
 
 
