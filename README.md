@@ -267,7 +267,7 @@ created a database in my sql server for student detailswith attributes student e
 Inserted some student details.
 Then Updated the database with some other student details.
 We entered some excess information in the student details table so we had to delete that excess information.
-Then we tried to set up connection between databse and server.
+Then we tried to set up connection between database and server.
 
 
 
