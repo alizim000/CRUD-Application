@@ -264,7 +264,7 @@ app.delete('/student/:id', (req, res) => {
 
 ##### vineet contribution
 created a database in my sql server for student detailswith attributes student email ids, student names and course id.
-Inserted some student details and checked if the database is working correctly.
+Inserted some student details.
 
 
 
