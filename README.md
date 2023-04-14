@@ -264,7 +264,7 @@ app.delete('/student/:id', (req, res) => {
 
 ##### vineet contribution
 created a database in my sql server for student details.
-
+Encountered with error in compling the database and tried to resollve it.
 
 
 
