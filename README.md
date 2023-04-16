@@ -227,7 +227,8 @@ app.delete('/student/:id', (req, res) => {
 
 ### Crud Application TEST
 
-### GET 
+### GET
+###### In order to retrieve data from the "studentdetails" table in the "student" database, we will use the GET method. We will be making the request using Postman, a popular API development tool. The retrieved data can be used for analysis and reporting purposes. This approach provides an efficient and reliable way to extract specific data from the database
 
 
 ![image](https://user-images.githubusercontent.com/103967847/231881948-6234ae95-5751-4cc7-987e-b2ae4324a6f7.png)
