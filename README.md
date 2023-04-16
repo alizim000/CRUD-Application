@@ -254,6 +254,7 @@ app.delete('/student/:id', (req, res) => {
 ![image](https://user-images.githubusercontent.com/103967847/231892583-5cc8dc53-bd43-4ec0-b18c-beb52b555d37.png)
 
 ### DELETE
+###### We have used the DELETE method to remove an existing record for "user2" with a "student_id" of 16 from the "studentdetails" table in our database. The record has been successfully deleted from the table
 
 ![image](https://user-images.githubusercontent.com/103967847/231892729-6ef1a31c-cb99-4d1d-a134-1851f13c84db.png)
 
