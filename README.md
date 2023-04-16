@@ -236,6 +236,7 @@ app.delete('/student/:id', (req, res) => {
 
 
 ### POST
+###### Using the POST method, we have successfully added a new record to the "studentdetails" table in the database. The new record contains the following information: student_name: "userpost", student_email: "post@gmail.com", and course_id: "222". The process was successful and the new data was added to the table.
 
 ![image](https://user-images.githubusercontent.com/103967847/231883778-a78a5b99-613f-4bf8-9022-ee884884811e.png)
 
