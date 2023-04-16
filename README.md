@@ -2,7 +2,7 @@
 ###### Programming CA-2 Group assignment 
 
 ### Summary
-In this project, We have used Azure and a CRUD (Create, Read, Update, Delete) application, created using Node.js, Express framework, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly.
+In this project, We have used  a CRUD (Create, Read, Update, Delete) applicationon on a Azure cloud infrastructure and created using Node.js, Express framework, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly.
 
 #### The project will be having the following structure 
 * package.json
@@ -79,6 +79,8 @@ grant all privileges on student.* to 'ali123'@'%';
 flush privileges;
 show databases;
 ```
+![image](https://user-images.githubusercontent.com/103967847/232315014-0794f6fd-f624-4282-a095-7d2e8574b586.png)
+
 ![image](https://user-images.githubusercontent.com/103967847/230727485-4d39c497-9a61-407e-a254-2b7b862c0d53.png)
 
 * Creating Table "studentdetails" on Mysql work bench
