@@ -268,11 +268,11 @@ app.delete('/student/:id', (req, res) => {
 ### Group Contribution
 
 #### Ali Moinuddin - Contribution
-###### 
+##### In this project, we created a CRUD application from scratch using Node.js and installed the Express framework, npm, and MySQL in the Azure cloud infrastructure. We opened necessary ports for database and application connections to the front end. We wrote application code in JavaScript, including a database module, API router, and SQL connection in the server.js file. We faced challenges such as connecting the database to the CRUD application and difficulty in using CRUD methods, but after reading blogs and searching the internet for solutions, we were able to identify the root cause and successfully implement the project. This project was an excellent learning experience in application development using Node.js and MySQL
 
 
 #### Vineet - Contribution
-###### created a database in my sql server for student detailswith attributes student email ids, student names and course id. Inserted some student details.Then Updated the database with some other student details.We entered some excess information in the student details table so we had to delete that excess information.Then we tried to set up connection between database and Application that is already established on port 3000.
+##### created a database in my sql server for student detailswith attributes student email ids, student names and course id. Inserted some student details.Then Updated the database with some other student details.We entered some excess information in the student details table so we had to delete that excess information.Then we tried to set up connection between database and Application that is already established on port 3000.
 
 
 
