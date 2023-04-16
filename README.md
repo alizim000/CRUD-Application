@@ -265,15 +265,14 @@ app.delete('/student/:id', (req, res) => {
 
 
 
-##### we used my sql database to store student information 
+### Group Contribution
+
+#### Ali Moinuddin - Contribution
+###### 
 
 
-##### vineet contribution
-created a database in my sql server for student detailswith attributes student email ids, student names and course id.
-Inserted some student details.
-Then Updated the database with some other student details.
-We entered some excess information in the student details table so we had to delete that excess information.
-Then we tried to set up connection between database and microsoft azure server that is already established on port 3000.
+#### Vineet - Contribution
+###### created a database in my sql server for student detailswith attributes student email ids, student names and course id. Inserted some student details.Then Updated the database with some other student details.We entered some excess information in the student details table so we had to delete that excess information.Then we tried to set up connection between database and Application that is already established on port 3000.
 
 
 
