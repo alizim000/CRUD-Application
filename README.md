@@ -244,7 +244,7 @@ app.delete('/student/:id', (req, res) => {
 
 
 ### PUT
-###### Using the PUT method, we have successfully updated the data of student_i:17 with the following details: student_name "userupdate", student_email "userupdate@gmail.com", and course_id "333" in the "studentdetails" table of our database. This approach provides a reliable way to modify and update specific data in the database. 
+###### Using the PUT method, we have successfully updated the data of student_id:17 with the following details: student_name "userupdate", student_email "userupdate@gmail.com", and course_id "333" in the "studentdetails" table of our database. This approach provides a reliable way to modify and update specific data in the database. 
 
 
 ![image](https://user-images.githubusercontent.com/103967847/231892391-30e02f09-2222-4dae-8929-56de1d9a7d0f.png)
