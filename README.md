@@ -1,10 +1,8 @@
 ## Node JS CRUD Application Development
 ##### Programming CA-2 Group assignment 
-https://github.com/alizim000/group-ca2
+https://github.com/alizim000/CRUD-Application
 
 1. Ali Moinuddin-10624857
-2. Vineet Yadav-10623070
-3. Azhar Khan-10520021
 
 ### Summary
 In this project, We have used  a CRUD (Create, Read, Update, Delete) applicationon on a Azure cloud infrastructure and created using Node.js, Express framework, and MySQL database. The application was tested and implemented using REST API with Postman. The project focused on managing student information, which was stored in a MySQL database with a table named "studentdetails." The application allowed users to create, read, update, and delete student records from the database through a user system. The implementation was successful and tested using Postman to ensure that the API endpoints were working correctly.
@@ -269,10 +267,7 @@ app.delete('/student/:id', (req, res) => {
 ### Group Contribution
 
 #### Ali Moinuddin 
-##### In this project, we created a CRUD application using Node.js and installed the Express framework, npm, and MySQL in the Azure cloud infrastructure. We opened necessary ports for database and application connections for conectivity. We wrote application code in JavaScript, including a database module, API router, and SQL connection in the server.js file. We faced challenges such as connecting the database to the CRUD application and difficulty in using CRUD methods, but after reading blogs and searching the internet for solutions, we were able to identify the root cause and successfully implement the project. This project was an excellent learning experience in application development using Node.js and MySQL
-
-#### Vineet Yadav  & Azhar Khan
-##### We created a database in mysql server for student detailswith attributes student email ids, student names and course id. Inserted some student details.Then Updated the database with some other student details.We entered some excess information in the student details table so we had to delete that excess information.Then we tried to set up connection between database and Application that is already established on port 3000.
+##### In this project, we created a CRUD application using Node.js and installed the Express framework, npm, and MySQL in the Azure cloud infrastructure. We opened necessary ports for database and application connections for conectivity. We wrote application code in JavaScript, including a database module, API router, and SQL connection in the server.js file. We faced challenges such as connecting the database to the CRUD application and difficulty in using CRUD methods, but after reading blogs and searching the internet for solutions, we were able to identify the root cause and successfully implement the project. This project was an excellent learning experience in application development using Node.js and MySQL. We created a database in mysql server for student detailswith attributes student email ids, student names and course id. Inserted some student details.Then Updated the database with some other student details.We entered some excess information in the student details table so we had to delete that excess information.Then we tried to set up connection between database and Application that is already established on port 3000.
 
 
 
